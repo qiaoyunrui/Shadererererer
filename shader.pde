@@ -1,10 +1,10 @@
 PShader shader;
 
 void setup() {
-  size(640, 360, P2D);
+  size(640, 640, P2D);
   noStroke();
 
-  shader = loadShader("shader.glsl");
+  shader = loadShader("demo3.glsl");
 }
 
 void draw() {
