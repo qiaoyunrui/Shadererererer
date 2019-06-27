@@ -4,7 +4,7 @@ void setup() {
   size(640, 640, P2D);
   noStroke();
 
-  shader = loadShader("repeat3.glsl");
+  shader = loadShader("shape1.glsl");
 }
 
 void draw() {
